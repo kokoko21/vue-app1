@@ -1,24 +1,7 @@
 # udemy_vuejs4_axios
 
-## Project setup
-```
-npm install
-```
+○axiosを使ってサーバとhttp通信をする掲示板アプリ
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+・バックエンドサーバ
+FirebaseのCloudFirestoreを使用
+REST APIを使用している。
