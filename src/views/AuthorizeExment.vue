@@ -21,9 +21,9 @@ export default {
     getSubmitAuthorize() {
       axios({
         method: 'GET',
-        url: 'http://192.168.137.1:8080/admin/oauth/authorize',
+        url: 'http://**********/admin/oauth/authorize',
         query: {
-          clientId: '03cf0700-399e-11eb-b067-ff2005722af5',
+          clientId: '**********************',
           redirectUrl: 'http://localhost:8081/success',
           responseType: 'code',
           scope: 'me'
@@ -40,11 +40,11 @@ export default {
     postSubmitAuthorize() {
       axios({
         method: 'POST',
-        url: 'http://192.168.137.1:8080/admin/oauth/token',
+        url: 'http://**************/admin/oauth/token',
         params: {
           grantType: 'authorization_code',
-          clientId: '03cf0700-399e-11eb-b067-ff2005722af5',
-          clientSecret: 'JNzIRkCHYueS3gdqiuOl3fezI823AjNVWbToz9X7',
+          clientId: '************************',
+          clientSecret: '************************',
           redirectUrl: 'http://localhost:8081/success',
           responseType: 'code',
           scope: 'me'
